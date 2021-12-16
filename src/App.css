@@ -1,0 +1,56 @@
+.head-weather{
+  text-align: center;
+  position: relative;
+  top: 30px;
+  color: white;
+  background-color: black;
+}
+
+.center-box{
+  position: absolute;
+    top: 145px;
+    right: 394px;
+    border: 5px solid black;
+    padding: 30px;
+    background-color: lightskyblue;
+    margin: auto;
+    width: -moz-fit-content;
+    width: 453px;
+    height: 380px;
+    border-radius: 15px;
+}
+.weather-info{
+  margin: 20px;
+
+  position: relative;
+  top: 50px;
+  filter: drop-shadow(10px);
+  
+}
+
+.info{
+  /* margin:5px; */
+  padding:5px;
+  text-align: center;
+}
+.button{
+  float:right
+}
+
+.nodata{
+  text-align: center;
+    position: relative;
+    top: 110px;
+    right: -36px;
+  
+}
+body{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.city{
+  padding-left: 52px;
+}
